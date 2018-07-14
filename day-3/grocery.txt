@@ -1,0 +1,14 @@
+Flour - 10KG
+Rice - 10KG
+Sugar - 5KG
+Pluse1 - 2KG
+Pluse2 - 2KG
+Pluse3 -2KG
+Wheat - 10KG
+rice
+mango
+orange
+rice
+wheat
+mango
+pluse1
