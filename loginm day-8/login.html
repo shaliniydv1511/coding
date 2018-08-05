@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>code</title>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<script src="Js/jQuery/tmp/jquery.js"></script>
+<script src="Js/bootstrap.js"></script>
+<script>
+function myfun(){
+var x1=document.getElementById('text1').value;
+var x2=document.getElementById('text2').value;
+alert("Email: "+x1+"\n Password: "+x2);
+}
+</script>
+
+<style type="text/css">
+.bg {
+background:url('image/pl.jpg') no-repeat;
+  width:100%;
+  height:100%;
+}
+  
+#log{
+padding:120px 70px;
+Margin-top:"1000px"
+-webkit-box-shadow: -2px -8px 28px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -8px 28px 14px rgba(0,0,0,0.75);
+box-shadow: -2px -8px 28px 14px rgba(0,0,0,0.75);
+border-radius: 70px 70px 70px 70px;
+-moz-border-radius: 70px 70px 70px 70px;
+-webkit-border-radius: 70px 70px 70px 70px;
+border: 0px solid #000000;
+
+}
+img{
+width=2px;
+margin:auto;
+}
+h1{
+color:white;
+text-align:center;
+font-weight:bolder;
+margin-top:-20px;
+}
+button{
+-webkit-box-shadow: -2px -8px 28px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -8px 28px 14px rgba(0,0,0,0.75);
+box-shadow: -2px -8px 28px 14px rgba(0,0,0,0.75);
+-moz-border-radius: 70px 70px 70px 70px;
+-webkit-border-radius: 70px 70px 70px 70px;
+border: 0px solid #000000;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid bg">
+      <div class="row">
+       <div class ="col-md-4 col-sm-4 col-xs-12"></div>
+       <div class ="col-md-4 col-sm-4 col-xs-12">
+       <form id="log">
+<h1><font color="white"><u>Login Form</font></u></h1>
+<img class="img img-responsive img-circle" src="image/lg.gif">
+        <div class="form group">
+                <label>
+<font color="white"><font size="3px">
+       E-mail</font></font></label>
+
+
+       <input type="email" id="text1" class="form-control"  placeholder="Email">
+
+
+        </div>
+        <div class="form group">
+        <label>
+<font color="white"><font size="3px">
+       Password</font></font></label>
+
+       <input type="password" id="text2" class="form-control"placeholder="Password">
+      </div>
+     <div class="checkbox">
+     <label><font color="white"><font size="2px"><input type="checkbox">Remember Me</font></font></label>
+     </div>
+     <button type="submit" onclick="myfun()" class="btn btn-success btn-block">Login</button>
+
+
+
+       <div class ="col-md-4 col-sm-4 col-xs-12"></div>
+
+
+       </div>
+</div>
+</body>
+</html>
